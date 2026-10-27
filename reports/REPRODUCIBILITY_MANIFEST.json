@@ -1,0 +1,18 @@
+{
+  "protocol": "0.3-part1",
+  "seed": 20261025,
+  "source_archive_sha256": "5403a8555b3e40953a2ed7e065d47954ffbbfb9e1d0cb79031dde30694b8fa50",
+  "kaggle_intended_handle": "google/gemma-3/transformers/gemma-3-4b-it/1",
+  "checkpoint_used": null,
+  "checkpoint_checksums": null,
+  "approved_context_manifest": null,
+  "gpu": null,
+  "cuda": null,
+  "precision_policy": "bfloat16; no fallback approved",
+  "dataset_metadata": "dataset_source.json",
+  "allocation": "real_data_validation.json",
+  "package_versions": "environment_current.json",
+  "tests": "part1_cpu_tests.txt",
+  "commit": "See COMMIT.txt in delivery archive; local commit is not a published GitHub commit",
+  "scientific_runs": 0
+}

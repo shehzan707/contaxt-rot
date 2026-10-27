@@ -1,0 +1,91 @@
+{
+  "dataset_sha256": "7400477ee62e70e34478bd113f146a80c38299d163094878499fdad7ac3e88f8",
+  "records": 7404,
+  "raw_records": 7405,
+  "invalid_excluded": [
+    {
+      "question_id": "5ae61bfd5542992663a4f261",
+      "reason": "supporting_fact_out_of_bounds"
+    }
+  ],
+  "seed": 20261025,
+  "quotas": {
+    "pilot": {
+      "bridge": 1,
+      "comparison": 1
+    },
+    "development": {
+      "bridge": 9,
+      "comparison": 3
+    },
+    "test": {
+      "bridge": 32,
+      "comparison": 8
+    }
+  },
+  "question_ids": {
+    "pilot": [
+      "5ae23d945542996483e64939",
+      "5ae2979a554299495565dade"
+    ],
+    "development": [
+      "5a74d9c555429929fddd84fb",
+      "5a81418455429903bc27b95f",
+      "5a74be0b5542996c70cfadc8",
+      "5a8750945542996432c57264",
+      "5ae7eb43554299540e5a5695",
+      "5a861fa75542994775f60706",
+      "5a88dcf9554299206df2b383",
+      "5a8a3e745542996c9b8d5e70",
+      "5ab870ed55429934fafe6db9",
+      "5a86ec9f55429960ec39b6d7",
+      "5abeb0da5542997ec76fd34b",
+      "5a88651b55429938390d3f45"
+    ],
+    "test": [
+      "5ade9545554299728e26c741",
+      "5a7150c75542994082a3e7be",
+      "5adcaa7f5542990d50227cdb",
+      "5abd5a135542992ac4f3829f",
+      "5ac508205542994611c8b32e",
+      "5abacac45542996cc5e49e94",
+      "5ae10df355429920d52342ac",
+      "5add813e5542992200553b46",
+      "5a86038455429960ec39b600",
+      "5a73cbe4554299623ed4ac5f",
+      "5abaa32655429955dce3eeaa",
+      "5ae140f95542997b2ef7d182",
+      "5ae46c9d5542996836b02c9d",
+      "5adde73f5542992200553b94",
+      "5aba97ed55429901930fa84d",
+      "5ac0d5cf554299294b219026",
+      "5abde0655542991f6610608b",
+      "5a8a5dd055429970aeb702c7",
+      "5a90719b5542995b442420b7",
+      "5a77e2095542995d8318131d",
+      "5ac31129554299741d48a1a2",
+      "5ae491155542995ad6573da3",
+      "5a82301155429926c1cdae4a",
+      "5ac3dfee554299204fd21eab",
+      "5ac2cb09554299657fa29066",
+      "5ac2070755429964131be2bd",
+      "5ae72f75554299572ea5476c",
+      "5a72f0e25542991f9a20c5cf",
+      "5a8ece2e5542995085b37497",
+      "5ab428915542991751b4d6b2",
+      "5a7fa55555429969796c1b0e",
+      "5a8b99c355429950cd6afd28",
+      "5ae1af14554299234fd042c4",
+      "5ab344fc55429969a97a811e",
+      "5ab72d925542993667793f6e",
+      "5ac179bf5542994ab5c67d60",
+      "5a7a77425542995eb53be83e",
+      "5ab60aec554299110f2199c3",
+      "5a85fc995542996432c5715f",
+      "5ab510cb5542996a3a96a00f"
+    ]
+  },
+  "donor_sentences": 265280,
+  "question_and_evidence_split_checks": "passed",
+  "context_status": "pending tokenizer and human review"
+}

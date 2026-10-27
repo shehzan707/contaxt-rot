@@ -1,0 +1,18 @@
+{
+  "status": "proposed_not_integrated",
+  "repository": "https://github.com/NVIDIA/RULER",
+  "revision": null,
+  "tasks": [
+    "single_key_single_value_needle_retrieval",
+    "variable_tracking"
+  ],
+  "instances_per_task": 20,
+  "lengths": [
+    4096,
+    16384
+  ],
+  "models": 3,
+  "methods": 4,
+  "total_answer_calls": 960,
+  "score_policy": "official task-specific scoring; never pool with HotpotQA"
+}

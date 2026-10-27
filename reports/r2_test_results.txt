@@ -1,0 +1,29 @@
+test_compare (test_core.ExtraTests.test_compare) ... ok
+test_error_scoring (test_core.ExtraTests.test_error_scoring) ... ok
+test_holm (test_core.ExtraTests.test_holm) ... ok
+test_logging (test_core.ExtraTests.test_logging) ... ok
+test_policy (test_core.ExtraTests.test_policy) ... ok
+test_production_bm25 (test_core.ExtraTests.test_production_bm25) ... ok
+test_retention (test_core.ExtraTests.test_retention) ... ok
+test_bm25 (test_core.Tests.test_bm25) ... ok
+test_bootstrap (test_core.Tests.test_bootstrap) ... ok
+test_budget (test_core.Tests.test_budget) ... ok
+test_conditions (test_core.Tests.test_conditions) ... ok
+test_donor_filter (test_core.Tests.test_donor_filter) ... ok
+test_duplicates (test_core.Tests.test_duplicates) ... ok
+test_leak (test_core.Tests.test_leak) ... ok
+test_missing_pairs (test_core.Tests.test_missing_pairs) ... ok
+test_pin_gate (test_core.Tests.test_pin_gate) ... ok
+test_policy_leak (test_core.Tests.test_policy_leak) ... ok
+test_position (test_core.Tests.test_position) ... ok
+test_position_failure (test_core.Tests.test_position_failure) ... ok
+test_prompt (test_core.Tests.test_prompt) ... ok
+test_review_gate (test_core.Tests.test_review_gate) ... ok
+test_schema (test_core.Tests.test_schema) ... ok
+test_scoring (test_core.Tests.test_scoring) ... ok
+test_split (test_core.Tests.test_split) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.119s
+
+OK

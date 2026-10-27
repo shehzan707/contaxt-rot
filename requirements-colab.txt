@@ -1,0 +1,8 @@
+# Candidate stack. Freeze actual versions after successful GPU validation.
+transformers>=4.50,<5
+accelerate>=1,<2
+kagglehub>=0.3
+sentencepiece>=0.2
+rank-bm25==0.2.2
+psutil
+# Retain Colab bundled torch/torchvision; do not downgrade CUDA implicitly.

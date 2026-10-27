@@ -1,0 +1,26 @@
+{
+  "github": {
+    "repo": "https://github.com/shehzan707/contaxt-rot",
+    "observed_default_branch": "main",
+    "observed_branches": [],
+    "write_attempt": "HTTP 403 Resource not accessible by integration",
+    "browser_upload": "blocked: extension Allow access to file URLs disabled",
+    "git_push_attempt": "failed: no CLI credentials; terminal prompts disabled"
+  },
+  "kaggle": {
+    "signed_in": true,
+    "official_variation": "google/gemma-3/transformers/gemma-3-4b-it/1",
+    "licence": "Gemma consent form opened, not accepted",
+    "runtime_auth": "not tested",
+    "checkpoint_downloaded": false
+  },
+  "colab": {
+    "url": "https://colab.research.google.com/drive/1VFazdAFwtkfayemi0DqjqKhqBQy27ilA",
+    "diagnostic_cell_created": true,
+    "runtime_selection": "T4",
+    "execution_attempted": true,
+    "error": "Could not send execute message to runtime: TypeError: Failed to fetch",
+    "gpu_measured": false,
+    "screenshot_attempt": "did not return; no screenshot evidence available"
+  }
+}

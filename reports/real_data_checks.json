@@ -1,0 +1,14 @@
+{
+  "executed": true,
+  "real_benchmark": true,
+  "gpu_required": false,
+  "eligible_records": 7404,
+  "allocation_counts": {
+    "pilot": 2,
+    "development": 12,
+    "test": 40
+  },
+  "determinism": "passed",
+  "question_and_evidence_separation": "passed",
+  "final_context_validation": "not executed: tokenizer and human approval missing"
+}

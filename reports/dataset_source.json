@@ -1,0 +1,7 @@
+{
+  "source": "https://huggingface.co/datasets/hotpotqa/hotpot_qa/resolve/main/distractor/validation-00000-of-00001.parquet",
+  "source_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+  "converted_json_sha256": "7400477ee62e70e34478bd113f146a80c38299d163094878499fdad7ac3e88f8",
+  "records": 7405,
+  "reason": "CMU original HTTP and HTTPS returned 503; public HotpotQA namespace Parquet distribution used without authentication. Logical schema conversion; not byte-equivalent to original JSON."
+}

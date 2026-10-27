@@ -1,0 +1,2 @@
+PARTIAL SETUP; NOT GPU OR PILOT READY.
+46 CPU tests passed. No scientific experiment executed. Read research_project/reports/PART1_READINESS_REPORT.md

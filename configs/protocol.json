@@ -1,0 +1,61 @@
+{
+  "version": "0.3-part1",
+  "seed": 20261025,
+  "models": [
+    {
+      "id": "google/gemma-3-4b-it",
+      "provider": "kaggle",
+      "handle": "google/gemma-3/transformers/gemma-3-4b-it/1",
+      "loader": "Gemma3ForConditionalGeneration",
+      "active": true,
+      "dtype": "bfloat16",
+      "revision": null
+    }
+  ],
+  "reference_model": "google/gemma-3-4b-it",
+  "reference_revision": null,
+  "compressor_model": "NousResearch/Llama-2-7b-hf",
+  "compressor_revision": null,
+  "max_new_tokens": 128,
+  "dtype": "bfloat16",
+  "retrieval_budget": 2048,
+  "compression_budget": 2048,
+  "development_n": 12,
+  "test_n": 40,
+  "conditions_development": [
+    "C1",
+    "C4",
+    "C6",
+    "C7"
+  ],
+  "conditions_heldout": [
+    "C2",
+    "C3",
+    "C5",
+    "C8"
+  ],
+  "methods": [
+    "full",
+    "bm25",
+    "longllmlingua",
+    "evidence"
+  ],
+  "bootstrap_repeats": 10000,
+  "optional_models": [
+    {
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": null,
+      "loader": "AutoModelForCausalLM",
+      "active": false
+    },
+    {
+      "id": "Qwen/Qwen3.5-9B",
+      "revision": null,
+      "loader": "AutoModelForMultimodalLM",
+      "enable_thinking": false,
+      "active": false
+    }
+  ],
+  "reference_provider": "local_kaggle",
+  "pilot_n": 2
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env*
+kaggle.json
+*.safetensors
+*.bin
+*.pt
+*.pth
+.cache/
+data/*
+!data/README.md
+results/*.jsonl
+configs/runtime*.json
+*.zip

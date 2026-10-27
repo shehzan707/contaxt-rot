@@ -1,0 +1,51 @@
+{
+  "version": "0.2",
+  "seed": 20261025,
+  "models": [
+    {
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": null,
+      "loader": "AutoModelForCausalLM"
+    },
+    {
+      "id": "Qwen/Qwen3.5-9B",
+      "revision": null,
+      "loader": "AutoModelForMultimodalLM",
+      "enable_thinking": false
+    },
+    {
+      "id": "google/gemma-3-4b-it",
+      "revision": null,
+      "loader": "AutoModelForMultimodalLM"
+    }
+  ],
+  "reference_model": "google/gemma-3-4b-it",
+  "reference_revision": null,
+  "compressor_model": "NousResearch/Llama-2-7b-hf",
+  "compressor_revision": null,
+  "max_new_tokens": 128,
+  "dtype": "bfloat16",
+  "retrieval_budget": 2048,
+  "compression_budget": 2048,
+  "development_n": 12,
+  "test_n": 40,
+  "conditions_development": [
+    "C1",
+    "C4",
+    "C6",
+    "C7"
+  ],
+  "conditions_heldout": [
+    "C2",
+    "C3",
+    "C5",
+    "C8"
+  ],
+  "methods": [
+    "full",
+    "bm25",
+    "longllmlingua",
+    "evidence"
+  ],
+  "bootstrap_repeats": 10000
+}

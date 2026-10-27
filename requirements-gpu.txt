@@ -1,0 +1,13 @@
+# Candidate packages only. Validate and freeze exact builds on the GPU pilot.
+# A sufficiently recent Transformers build with Qwen3.5 support is required.
+torch
+transformers
+accelerate
+huggingface_hub
+sentencepiece
+llmlingua
+numpy
+scipy
+matplotlib
+pillow
+torchvision

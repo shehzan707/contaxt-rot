@@ -1,0 +1,5 @@
+# Separate environment until compatibility is verified; no model substitution.
+llmlingua==0.2.2
+transformers>=4.50,<5
+accelerate>=1,<2
+sentencepiece
